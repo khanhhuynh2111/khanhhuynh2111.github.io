@@ -1,0 +1,263 @@
+body {
+	margin: 0px;
+	background-image: url("../img/clouds.jpg");
+	background-position: center;
+	font-family: 'Poppins', sans-serif;background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+img {
+width: 6%;
+height: auto;
+}
+#catto1 {
+width:20%;
+height:auto;
+}
+
+#title {
+	font-size: 4.5em;
+	text-align: center;
+	margin: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	color: rgb(254, 255, 252);
+}
+
+
+
+#letter {
+margin-left: 260px;
+}
+
+#letterpic {
+width: 10%;
+height: auto;
+
+}
+
+#letterpic:hover {
+	cursor: pointer;
+	transform: rotate(-10deg);
+}
+
+.overall {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.container {
+  background: #fff;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px 30px;
+  box-shadow: 0 4px 2px 1px rgba(0,0,0,0.05);
+border: 2px solid #b3b3b3;
+	border-radius: 31px;
+}
+p {
+text-align: center;
+color: #30455C;
+}
+
+#habit {
+  background: pink;
+  max-width: 400px;
+  margin: 100px auto;
+padding: 10px 10px;
+ display: flex;
+flex-direction: row;
+ 
+}
+
+h3 {
+  font-style: italic;
+color: #b3b3b3;
+font-size: 20px;
+font-weight: normal;
+}
+
+p {
+    height: 0.2em;
+    width: auto;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+font-size: 20px;
+  letter-spacing: 0.75px;
+color: #30455C;
+}
+
+#item {
+display: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+li label {
+  width: 370px;
+  padding: 13px 0 13px 20px;
+display: flex;
+justify-content: space-between;
+}
+.duration {
+	color: #b3b3b3;
+}
+/* styles for list items 
+ ------------------------------ */
+
+li:hover {
+  background: #ebf6e0;
+}
+
+
+li input[type="checkbox"],
+li label {
+  cursor: pointer;
+}
+
+li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+li input[type="checkbox"]:checked + label {
+ 	background: #ebf6e0;
+  opacity: 0.8;
+}
+
+li small {
+  font-size: 14px;
+  color: #777;
+  background: #eee;
+  padding: 2px 6px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.highlighted-badge {
+  background: #ffc368;
+  color: #855710;
+}
+
+/* style of button 
+ ------------------------------ */
+
+button {
+	padding: 11px 31px;
+	margin: 20px 0;
+	border: 1px solid #b3b3b3;
+	border-radius: 31px;
+	font-size: 12px;
+	color: black;
+	text-transform: uppercase;
+	background: transparent;
+}
+
+#toggle-button:hover {
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	border-color: black;
+}
+
+#toggle-button:focus {
+	outline: none;
+}
+
+#toggle-button:active {
+	border-color: #838383;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ccc;
+}
+.hidden {
+	display: none;
+}
+
+button:hover {
+	font-weight: bold;
+	font-size: 13px;
+	color: black;
+	border-color: black;
+}
+
+#start-button:focus {
+	outline: none;
+}
+
+#start-button:active {
+	border-color: #838383;
+	font-weight: normal;
+	font-size: 12px;
+	color: #ccc;
+}
+
+
+#pictures {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+#pictures img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+#pictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+

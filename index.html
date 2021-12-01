@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Poppins&display=swap' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<title>small steps</title>
+<div id="title">Small steps everyday</div>
+<h1>check all the suggested habits (LEFT) that speak to you</h1>
+<h1>then, click ADD to put them in your own routine (RIGHT) </h1>
+<h1>press START to put the routine countdown timer into action!</h1>
+<h1>
+
+
+</h1>
+
+<p>* refresh (f5) whenever you make changes to the list after clicking ADD * </p>
+
+<div id="letter" >
+<img src="assets/img/letter.png" id="letterpic">
+</div>
+
+	<div id="lightbox-overlay" class="hidden"></div>
+	<div class="lightbox hidden" id="catto1">
+		<img src="assets/img/catto1.jpg" alt="">
+		<div class="caption">
+			Remember that PRODUCTIVITY < YOUR OWN WELL-BEING!
+			You're doing so great! Killin' it!
+			Keep up the good work :)
+		</div>
+	</div>
+
+	<div class="lightbox hidden" id="doggo2">
+		<main class="container">
+			<h1 id="countdown"></h1>
+			<h1 id="showfinish"></h1>
+		</main>
+
+	</div>
+
+
+<div class="overall">
+<main class="container">
+	<h1>Sample Habits</h1>
+
+	<form>
+		<ul id="first-six">
+			<li>
+				<input type="checkbox" id="item1" value="brush teeth"/>
+				<img src="assets/img/brushteeth.png">
+				<label for="item1">brushteeth</label>
+				<div class="duration" id="duration1">3m</div>
+			</li>
+
+
+		<li>
+			<input type="checkbox" id="item2" value="shower"/>
+			<img src="assets/img/shower.png">
+			<label for="item2">shower</label>
+			<div class="duration">10m</div>
+		</li>
+		<li>
+			<input type="checkbox" id="item3" value="meditate"/>
+			<img src="assets/img/meditate.png">
+			<label for="item3">meditate</label>
+			<div class="duration">10m</div>
+		</li>
+
+		<li>
+			<input type="checkbox" id="item4" value="exercise"/>
+			<img src="assets/img/exercise.png">
+			<label for="item4">exercise</label>
+			<div class="duration">15m</div>
+		</li>
+
+		<li>
+			<input type="checkbox" id="item5" value="journal"/>
+			<img src="assets/img/journal.png">
+			<label for="item5">journal</label>
+			<div class="duration">5m</div>
+		</li>
+
+		<li>
+			<input type="checkbox" id="item6" value="yoga" />
+			<img src="assets/img/yoga.png">
+			<label for="item6">yoga</label>
+			<div class="duration">15m</div>
+		</li>
+</ul>
+
+<ul id="second-six">
+<li>
+	<input type="checkbox" id="item7" />
+	<img src="assets/img/study.png">
+	<label for="item7">study</label>
+	<div class="duration">30m</div>
+</li>
+
+<li>
+	<input type="checkbox" id="item8" />
+	<img src="assets/img/water.png">
+	<label for="item8">drink water</label>
+	<div class="duration">1m</div>
+</li>
+
+<li>
+	<input type="checkbox" id="item9" />
+	<img src="assets/img/affirmation.png">
+	<label for="item9">affirmation</label>
+	<div class="duration">3m</div>
+</li>
+
+<li>
+	<input type="checkbox" id="item10" />
+	<img src="assets/img/skincare.png">
+	<label for="item10">skin care</label>
+	<div class="duration">10m</div>
+</li>
+
+<li>
+	<input type="checkbox" id="item11" />
+	<img src="assets/img/cleaning.png">
+	<label for="item11">clean</label>
+	<div class="duration">5m</div>
+</li>
+
+<li>
+	<input type="checkbox" id="item12" />
+	<img src="assets/img/planning.png">
+	<label for="item12">plan the day</label>
+	<div class="duration">5m</div>
+</li>
+</ul>
+
+	</form>
+
+<button id="toggle-button">Show more</button>
+
+<button onclick="myFunction()">Add</button>
+</main>
+
+
+<main class="container">
+	<h1>My Routine</h1>
+<li>
+<div id="order1">  </div>
+</li>
+<li>
+<div id="order2">  </div>
+</li>
+<li>
+<div id="order3">  </div>
+</li>
+<li>
+<div id="order4">  </div>
+</li>
+<li>
+<div id="order5">  </div>
+</li>
+<li>
+<div id="order6">  </div>
+</li>
+<li>
+<div id="order7">  </div>
+</li>
+<li>
+<div id="order8">  </div>
+</li>
+<li>
+<div id="order9">  </div>
+</li>
+<li>
+<div id="order10">  </div>
+</li>
+<li>
+<div id="order11">  </div>
+</li>
+<li>
+<div id="order12">  </div>
+</li>
+
+
+
+<button id="start-button">Start</button>
+		</main>
+
+
+</div>
+<script src="assets/script/script.js"></script>
+
+</html>
